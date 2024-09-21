@@ -51,3 +51,5 @@ function getAreaMod2 (shape: Shapes) {
             // (property) shape: Square
     }
 }
+
+export {}

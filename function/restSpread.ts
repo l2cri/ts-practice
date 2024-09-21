@@ -60,3 +60,5 @@ function someThing(): void {
 const f4 = function (): void {
     return true
 } 
+
+export {}

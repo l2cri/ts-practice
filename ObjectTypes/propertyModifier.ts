@@ -88,7 +88,7 @@ function render(a: any) {
     console.log(a)
 }
 
-// Нелья поместить аннотацию в деструктуризацию
+// Нельзя поместить аннотацию в деструктуризацию
 function draw1 ({ shape25: Shape, xPos: number = 100 }) {
     render(shape25)
     //не возможно найти shape25 возможно вы имели ввиду Shape

@@ -1,18 +1,18 @@
 // 1. Используйте типы параметров без ограничений
-function firstElemnt1<Type>(arr: Type[]) {
+function firstElement1<Type>(arr: Type[]) {
     return arr[0];
 }
 
-function firstElemnt2<Type extends any[]>(arr: Type) {
+function firstElement2<Type extends any[]>(arr: Type) {
     return arr[0];
 }
 
 // a: string хорошо!
-const a = firstElemnt1([1, 2, 3])
+const a = firstElement1([1, 2, 3])
 // b: any плохо!
-const b = firstElemnt2([1, 2, 3])
+const b = firstElement2([1, 2, 3])
 
-// 2. Используйте мингимальное кол-во типов параметра
+// 2. Используйте минимальное кол-во типов параметра
 function filter1<Type>(
     arr: Type[],
     func: (arg: Type) => boolean

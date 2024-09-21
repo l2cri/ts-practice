@@ -12,3 +12,5 @@ console.log(x);
 // let x: string
 
 x = true // type boolean in not type string | number
+
+export {}
