@@ -178,3 +178,5 @@ function distanceFromOrigin2([x, y]: readonly [number, number]) {
 }
 
 distanceFromOrigin2(point) // OK
+
+export {}
