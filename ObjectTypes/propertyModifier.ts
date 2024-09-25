@@ -96,3 +96,5 @@ function draw1 ({ shape25: Shape, xPos: number = 100 }) {
     render(xPos)
     // невозможно найти xPos
 }
+
+export {}

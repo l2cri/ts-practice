@@ -54,3 +54,5 @@ writablePerson.age++
 console.log(readonlyPerson.age) // 43
 
 readonlyPerson.age++; // ошибка !!!
+
+export {}
