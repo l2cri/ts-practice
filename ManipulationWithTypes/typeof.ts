@@ -72,3 +72,5 @@ type Age3 = Person[key2]
 
 type key3 = 'age'
 type Age5 = Person[key3]
+
+export {}
