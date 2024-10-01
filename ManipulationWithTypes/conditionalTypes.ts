@@ -136,3 +136,5 @@ type StrArrOrNumArr2 = ToArray2<string | number>
 let ar2: StrArrOrNumArr2 = [1, 2]
 ar2 = ['foo', 'bar']
 ar2 = [1, 'fo'] // ok 
+
+export {}

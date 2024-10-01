@@ -60,3 +60,5 @@ function createInstance<A extends Animal>(c: new () => A): A {
 
 createInstance(Lion).keeper.nameTag
 createInstance(Bee).keeper.hasMask
+
+export {}
