@@ -121,3 +121,5 @@ console.log(msgFix instanceof MsgErrorFix) // true
 
 // console.log(parentMsgFix.sayHello())
 console.log(msgFix.sayHello()) // sayHello is not function !!!
+
+export {}
