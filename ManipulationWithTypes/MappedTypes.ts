@@ -104,3 +104,5 @@ type DBFields = {
 
 type ObjectNeedingGDPRDeletion = ExtractPII<DBFields> 
 // type ObjectNeedingGDPRDeletion = { id: false, name: true }
+
+export {}
